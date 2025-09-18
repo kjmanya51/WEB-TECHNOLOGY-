@@ -1,0 +1,31 @@
+body {
+  background-color: #fff0f5;
+  font-family: 'Comic Sans MS', cursive;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr 250px;
+  gap: 20px;
+  padding: 20px;
+}
+
+.menu {
+  background-color: #ffe4e1;
+  padding: 15px;
+}
+
+.content {
+  background-color: #fafad2;
+  padding: 20px;
+}
+
+.sidebar {
+  background-color: #e0ffff;
+  padding: 20px;
+}
+
+.button-bar {
+  text-align: center;
+  margin: 20px;
+}
